@@ -59,6 +59,9 @@ img.half {
 
 
 @media(max-width: 600px) {
+  %span {
+    font-size: 14pt;
+  }
   .title {
       font-size: 35pt;
   }
