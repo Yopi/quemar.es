@@ -56,6 +56,15 @@ img.half {
   padding-top: 20px;
 }
 
+.footnote {
+  font-family: 'Merriweather', serif;
+  font-size: 12pt;
+}
+
+a {
+  font-style: none;
+  text-decoration: none;
+}
 
 
 @media(max-width: 600px) {
@@ -78,6 +87,11 @@ img.half {
     margin-top: -1337px;
     margin-left: -1900px;
   }
+
+  .footnote {
+    font-size: 12pt;
+  }
+
 }
 
 @media(min-width: 600px) {
@@ -97,6 +111,10 @@ img.half {
       margin-top: -1337px;
       margin-left: -1900px;
     }
+    .footnote {
+      font-size: 14pt;
+    }
+
 }
 
 @media(min-width: 1050px) {
@@ -116,6 +134,9 @@ img.half {
     .full-img img {
       margin-top: -1337px;
       margin-left: -1500px;
+    }
+    .footnote {
+      font-size: 16pt;
     }
 
 }
