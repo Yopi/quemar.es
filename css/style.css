@@ -60,7 +60,7 @@ img.half {
 
 @media(max-width: 600px) {
   .title {
-      font-size: 40pt;
+      font-size: 35pt;
   }
 
   .warning {
@@ -112,7 +112,7 @@ img.half {
 
     .full-img img {
       margin-top: -1337px;
-      margin-left: -1900px;
+      margin-left: -1500px;
     }
 
 }
